@@ -1,0 +1,164 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Set font family */
+    margin: 0; /* Remove default margins */
+    padding: 20px; /* Add padding around the content */
+    background-color: #f9f9f9; /* Set background color */
+    position: relative; /* Set position relative for absolute positioning of other elements */
+}
+
+h1 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Add margin below the heading */
+    color: #333; /* Set heading color */
+}
+
+#menu {
+    text-align: center; /* Center align the menu */
+    margin-bottom: 20px; /* Add margin below the menu */
+}
+
+button {
+    padding: 10px 20px; /* Set padding for buttons */
+    margin: 0 10px; /* Set margin around buttons */
+    font-size: 16px; /* Set font size for buttons */
+    background-color: #4CAF50; /* Set background color for buttons */
+    color: white; /* Set text color for buttons */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add border radius to buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+table {
+    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-bottom: 20px; /* Add margin below the table */
+    background-color: #fff; /* Set background color for the table */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Set border for table cells */
+    padding: 8px; /* Add padding inside table cells */
+    text-align: left; /* Align text to the left within table cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Set background color for table header cells */
+}
+
+form {
+    max-width: 400px; /* Set maximum width for forms */
+    margin: 0 auto; /* Center align forms */
+    background-color: #fff; /* Set background color for forms */
+    padding: 20px; /* Add padding inside forms */
+    border-radius: 4px; /* Add border radius to forms */
+    border: 1px solid #ddd; /* Set border for forms */
+}
+
+label {
+    display: block; /* Set labels to display block */
+    margin-bottom: 10px; /* Add margin below labels */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Set input width to 100% */
+    padding: 8px; /* Add padding inside inputs */
+    margin-bottom: 20px; /* Add margin below inputs */
+    border: 1px solid #ccc; /* Set border for inputs */
+    border-radius: 4px; /* Add border radius to inputs */
+    box-sizing: border-box; /* Include padding and border in input's total width */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Set background color for submit buttons */
+    color: white; /* Set text color for submit buttons */
+    padding: 10px 20px; /* Add padding for submit buttons */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add border radius to submit buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+#notification {
+    position: fixed; /* Set position to fixed */
+    bottom: 20px; /* Set distance from bottom */
+    left: 20px; /* Set distance from left */
+    background-color: #333; /* Set background color for notification */
+    color: white; /* Set text color for notification */
+    padding: 10px 20px; /* Add padding for notification */
+    border-radius: 4px; /* Add border radius to notification */
+    display: none; /* Hide notification by default */
+}
+
+.fixed-link {
+    position: fixed; /* Set position to fixed */
+    bottom: 20px; /* Set distance from bottom */
+    background-color: rgba(0, 0, 0, 0.5); /* Set background color for fixed links */
+    color: white; /* Set text color for fixed links */
+    padding: 10px 20px; /* Add padding for fixed links */
+    border-radius: 4px; /* Add border radius to fixed links */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect */
+    display: none; /* Hide fixed links by default */
+}
+
+#inventory-link {
+    left: 20px; /* Set distance from left for inventory link */
+}
+
+#sales-report-link {
+    left: calc(20px + 160px); /* Set distance from left for sales report link */
+}
+
+.fixed-link:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Change background color on hover */
+}
+
+.content-container {
+    width: 100%; /* Set width to 100% */
+    height: 200px; /* Set fixed height */
+    background-color: rgba(255, 255, 255, 0.9); /* Set background color for content containers */
+    border-top: 1px solid #ddd; /* Add border at the top */
+    overflow: auto; /* Add scrollbar for overflow content */
+    display: none; /* Hide content containers by default */
+}
+
+button.exit-button {
+    position: fixed; /* Set position to fixed */
+    bottom: 20px; /* Set distance from bottom */
+    right: 20px; /* Set distance from right */
+    background-color: #ff0000; /* Set background color for exit button */
+    color: white; /* Set text color for exit button */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add border radius to exit button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+button.exit-button:hover {
+    background-color: #8b0000; /* Change background color on hover */
+}
+
+/* Added background colors */
+#output {
+    background-color: #f0f0f0; /* Set background color for output section */
+    padding: 20px; /* Add padding inside output section */
+    border-radius: 4px; /* Add border radius to output section */
+    margin-bottom: 20px; /* Add margin below output section */
+}
+
+#inventory-content, #sales-report-content {
+    background-color: #f0f0f0; /* Set background color for inventory and sales report content */
+    padding: 20px; /* Add padding inside content */
+    border-radius: 4px; /* Add border radius to content */
+    margin-bottom: 20px; /* Add margin below content */
+}
